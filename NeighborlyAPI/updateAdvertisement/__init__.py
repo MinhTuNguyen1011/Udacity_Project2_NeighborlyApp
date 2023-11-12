@@ -11,7 +11,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         try:
             url = "mongodb://azurecosmosdbneighborly:SDnHk2IYrtaCuYzcp75TIZYqbqvu6C4tVPVRMWNXWLmtMyJHTXsnpLUaOJHFgDIQTl1rQ4LTId7lACDbowSl7w==@azurecosmosdbneighborly.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azurecosmosdbneighborly@"  # TODO: Update with appropriate MongoDB connection information
             client = pymongo.MongoClient(url)
-            database = client['azurecosmosdbneighborly']
+            database = client['neighborly']
             collection = database['advertisements']
             
             filter_query = {'_id': str(id)}
