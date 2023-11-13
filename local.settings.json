@@ -26,7 +26,7 @@
     "SCM_DO_BUILD_DURING_DEPLOYMENT": "1",
     "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trinhcv;AccountKey=CQlEJXkpNXfYXKhMCPVidarbhug9nPPEq7HsgiPEQztva5aYGkEjDKLiMLzw5rEteM9YZKgVCMXL+AStvednCw==",
     "WEBSITE_CONTENTSHARE": "trinhcv",
-    "MyMongoDbConnection": "mongodb+srv://trinhcao2516:HXTjpuDO70W6TQ3E@cluster0.yg5bjc4.mongodb.net/?retryWrites=true&w=majority"
+    "MyMongoDbConnection": "mongodb://mongodbtrinhcv:wPWm1YU5RBVScIbR7JKlGBXGCM6LgsmHeEmGf9OmSR5xosnbmFaIlLCq7lkVrbarHCgb8epHzNlSACDbrWRf1Q==@mongodbtrinhcv.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@mongodbtrinhcv@"
   },
   "ConnectionStrings": {}
 }
