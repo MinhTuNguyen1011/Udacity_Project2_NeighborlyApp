@@ -1,15 +1,32 @@
+//{
+//  "IsEncrypted": false,
+//  "Values": {
+//    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountneighborly;AccountKey=VBIIX0HpiWlG6DURQZTcjI/waqE+5wzOeFkmivqLLzUOt1pULZB9etR20hGZNWm3j9nGElTSwrQr+AStWYTaAA==;EndpointSuffix=core.windows.net",
+ //   "AzureWebJobsSecretStorageType": "files",
+ //   "FUNCTIONS_WORKER_RUNTIME": "python",
+ //   "ENABLE_ORYX_BUILD": "1",
+ //   "FUNCTIONS_EXTENSION_VERSION": "~4",
+ //   "SCM_DO_BUILD_DURING_DEPLOYMENT": "1",
+ //   "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storageaccountneighborly;AccountKey=VBIIX0HpiWlG6DURQZTcjI/waqE+5wzOeFkmivqLLzUOt1pULZB9etR20hGZNWm3j9nGElTSwrQr+AStWYTaAA==",
+ //   "WEBSITE_CONTENTSHARE": "neighboorlyapp",
+ //   "MyMongoDbConnection": "mongodb://azurecosmosdbneighborly:SDnHk2IYrtaCuYzcp75TIZYqbqvu6C4tVPVRMWNXWLmtMyJHTXsnpLUaOJHFgDIQTl1rQ4LTId7lACDbowSl7w==@azurecosmosdbneighborly.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azurecosmosdbneighborly@"
+ // },
+//  "ConnectionStrings": {}
+//}
+
+
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountneighborly;AccountKey=VBIIX0HpiWlG6DURQZTcjI/waqE+5wzOeFkmivqLLzUOt1pULZB9etR20hGZNWm3j9nGElTSwrQr+AStWYTaAA==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=trinhcv;AccountKey=CQlEJXkpNXfYXKhMCPVidarbhug9nPPEq7HsgiPEQztva5aYGkEjDKLiMLzw5rEteM9YZKgVCMXL+AStvednCw==;EndpointSuffix=core.windows.net",
     "AzureWebJobsSecretStorageType": "files",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "ENABLE_ORYX_BUILD": "1",
     "FUNCTIONS_EXTENSION_VERSION": "~4",
     "SCM_DO_BUILD_DURING_DEPLOYMENT": "1",
-    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=storageaccountneighborly;AccountKey=VBIIX0HpiWlG6DURQZTcjI/waqE+5wzOeFkmivqLLzUOt1pULZB9etR20hGZNWm3j9nGElTSwrQr+AStWYTaAA==",
-    "WEBSITE_CONTENTSHARE": "neighboorlyapp",
-    "MyMongoDbConnection": "mongodb://azurecosmosdbneighborly:SDnHk2IYrtaCuYzcp75TIZYqbqvu6C4tVPVRMWNXWLmtMyJHTXsnpLUaOJHFgDIQTl1rQ4LTId7lACDbowSl7w==@azurecosmosdbneighborly.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azurecosmosdbneighborly@"
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=trinhcv;AccountKey=CQlEJXkpNXfYXKhMCPVidarbhug9nPPEq7HsgiPEQztva5aYGkEjDKLiMLzw5rEteM9YZKgVCMXL+AStvednCw==",
+    "WEBSITE_CONTENTSHARE": "trinhcv",
+    "MyMongoDbConnection": "mongodb+srv://trinhcao2516:HXTjpuDO70W6TQ3E@cluster0.yg5bjc4.mongodb.net/?retryWrites=true&w=majority"
   },
   "ConnectionStrings": {}
 }
